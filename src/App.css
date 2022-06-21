@@ -1,0 +1,52 @@
+body{
+    background-image: url(./image1.webp);
+    background-size: cover;
+}
+
+.App {
+  
+    /* background-color:lightcyan; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+  
+h1{
+    text-align: center;
+}
+
+.calculator{
+    width: 100%;
+    max-width: 400px;
+    background-color: aliceblue;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0px 2px 64px rgba(0,0,0,0.2);
+}
+
+.display{
+    padding: 20px;
+    text-align: center;
+    background-color: var(--dark);
+    color: var(--light);
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/* button{
+    appearance: none;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+
+} */
+
+.operators button{
+    background-color: palevioletred;
+    font-weight: 800;
+}
